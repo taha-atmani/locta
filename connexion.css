@@ -1,0 +1,55 @@
+/* Styles pour la page de connexion */
+
+body {
+  background-image: url(ressource/montains.jpg);
+  background-size: cover;
+}
+
+form {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #444;
+
+
+}
+
+form input[type="email"],
+form input[type="password"],
+form input[type="submit"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border: none;
+  background-color: #f0f0f0;
+  font-size: 16px;
+}
+
+form input[type="submit"] {
+  background-color: #2f6931;
+  color: white;
+  cursor: pointer;
+  width: 30%;
+}
+
+form input[type="submit"]:hover {
+  background-color: #56a859;
+}
+
+form p {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
